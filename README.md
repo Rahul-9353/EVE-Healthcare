@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # EVE Healthcare — Diagnostic Booking & Payments API
 
 A backend service for booking diagnostic tests and simulating payments,
@@ -190,3 +191,7 @@ short-circuited (no duplicate payment rows, no re-applied booking state).
   and webhook paths, since those are the endpoints most worth auditing.
 - Swagger/OpenAPI docs already come for free from FastAPI at /docs; would
   add richer example payloads and response schemas per endpoint.
+=======
+# EVE-Healthcare
+Backend service for diagnostic test bookings and simulated payments. Built with FastAPI, SQLAlchemy, and PostgreSQL — supports JWT auth, centre/test management, bookings, and a payment webhook designed to be idempotent so retried or duplicate events never corrupt booking state. Docker-ready.
+>>>>>>> 042ac52c28d3e1db2857fac81a942639ca7e2501
